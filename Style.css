@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: math;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #414141;
+}
+
+.container {
+    min-height: 55vh;
+    box-shadow: 0px 0px 8px 1px white;
+    background: transparent;
+    border-radius: 8px;
+    backdrop-filter: blur(18px);
+    padding: 4vh 6vh;
+    text-align: center;
+    color: white;
+}
+
+.container h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    color: white;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.container .input-container {
+    border: 3px solid white;
+    border-radius: 4px;
+    margin-block: 5vh;
+    display: flex;
+}
+
+.container .input-container input,
+.container .input-container select {
+    width: 50%;
+    outline: none;
+    border: 4px solid #383838;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 8px;
+    color: #3b3b3b;
+    background-color: #fff;
+}
+
+.container .arrow {
+    transform: rotate(90deg);
+    font-size: 44px;
+}
+
+.container .result {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
